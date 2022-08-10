@@ -1,0 +1,4658 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+#WelcomeBackgroundPhoto {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#WelcomeDescription1 {
+  color: rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+#WelcomeDescription2 {
+  line-height: 25px;
+  opacity: 0.4;
+}
+
+#iOSButton1 {
+  box-shadow: 0 0 5px gray;
+  color: white;
+  background-color: #6CC4A1;
+  border: 2px #6CC4A1 solid;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+#iOSButton1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#MacButton1 {
+  box-shadow: 0 0 5px gray;
+  color: white;
+  background-color: #6E85B7;
+  border: 2px #6E85B7 solid;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+}
+
+#MacButton1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+#Description3 {
+  color: rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+#Description4 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description5 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description6 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description7 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description8 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description9 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description10 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description11 {
+  color: rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+#Description12 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description13 {
+  color: rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+#Description14 {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+#Description15 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description16 {
+  opacity: 0.5;
+  line-height: 25px;
+  width: 310px;
+}
+
+#Description17 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description18 {
+  opacity: 0.5;
+  line-height: 25px;
+  width: 310px;
+}
+
+#Description19 {
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+}
+
+#Description20 {
+  opacity: 0.5;
+  line-height: 25px;
+  width: 310px;
+}
+
+#Description21 {
+  color: rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+#Description22 {
+  line-height: 25px;
+  opacity: 0.4;
+}
+
+#iOSButton2 {
+  box-shadow: 0 0 5px gray;
+  color: white;
+  background-color: #6CC4A1;
+  border: 2px #6CC4A1 solid;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+#iOSButton2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#MacButton2 {
+  box-shadow: 0 0 5px gray;
+  color: white;
+  background-color: #6E85B7;
+  border: 2px #6E85B7 solid;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+}
+
+#MacButton2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#bottom {
+  border: 2px rgb(248, 248, 248) solid;
+  background-color: rgb(248, 248, 248);
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 140px;
+  min-height: 140px;
+}
+
+h4 {
+  opacity: 0.7;
+}
+
+h4:hover {
+  cursor: pointer;
+  color: #6CC4A1;
+}
+
+.SocialMediaIcons:hover {
+  cursor: pointer;
+  background-color: #6CC4A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Default Scale*/
+
+#Logo {
+  position: relative;
+  top: -300px;
+  left: 47%;
+}
+
+#WelcomeDescription1 {
+  text-align: center;
+}
+
+#WelcomeDescription2 {
+  position: relative;
+  left: 31%;
+  text-align: center;
+  max-width: 470px;
+}
+
+#Article1 {
+  position: relative;
+  top: 50px;
+}
+
+#Article2 {
+  position: relative;
+  top: 30px;
+}
+
+#Article3 {
+  position: relative;
+  top: 20px;
+}
+
+#Article4 {
+  position: relative;
+  top: 20px;
+}
+
+.WelcomeDescriptions {
+  position: relative;
+  top: -300px;
+}
+
+.InstallButtons1 {
+  position: relative;
+  left: 50%;
+  top: -290px;
+}
+
+#iOSButton1 {
+  position: relative;
+  left: 37%;
+}
+
+#MacButton1 {
+  position: relative;
+  left: 38%;
+}
+
+#Description3 {
+  text-align: center;
+  position: relative;
+  top: -180px;
+  font-size: 30px;
+}
+
+#Description4 {
+  text-align: center;
+  position: relative;
+  width: 500px;
+  left: 30%;
+  top: -170px;
+}
+
+#MacImage1 {
+  position: relative;
+  top: -120px;
+  right: 5%;
+}
+
+#Description5 {
+  position: relative;
+  left: 52%;
+  top: -580px;
+}
+
+#Description6 {
+  position: relative;
+  left: 52%;
+  top: -580px;
+  width: 400px;
+}
+
+#Description7 {
+  position: relative;
+  left: 52%;
+  top: -560px;
+}
+
+#Description8 {
+  position: relative;
+  left: 52%;
+  top: -560px;
+  width: 400px;
+}
+
+#Description9 {
+  position: relative;
+  left: 52%;
+  top: -540px;
+}
+
+#Description10 {
+  position: relative;
+  left: 52%;
+  top: -540px;
+  width: 400px;
+}
+
+#Description11 {
+  text-align: center;
+  position: relative;
+  top: -360px;
+}
+
+#Description12 {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  left: 26%;
+  top: -360px;
+}
+
+#DevicesImage {
+  position: relative;
+  top: -320px;
+  left: 15%;
+}
+
+#Description13 {
+  position: relative;
+  text-align: center;
+  top: -300px;
+}
+
+#Description14 {
+  position: relative;
+  text-align: center;
+  top: -300px;
+  left: 0%;
+}
+
+#BlacklistIcon {
+  position: relative;
+  left: 19%;
+  top: -270px;
+}
+
+#Description15 {
+  position: relative;
+  left: 13.5%;
+  top: -264px;
+}
+
+#Description16 {
+  text-align: center;
+  position: relative;
+  left: 9%;
+  top: -264px;
+}
+
+#TextIcon {
+  position: relative;
+  top: -464px;
+  left: 49%;
+}
+
+#Description17 {
+  position: relative;
+  top: -453px;
+  left: 42.5%;
+}
+
+#Description18 {
+  text-align: center;
+  position: relative;
+  top: -453px;
+  left: 38.5%;
+}
+
+#PreviewIcon {
+  position: relative;
+  top: -625px;
+  left: 78%;
+}
+
+#Description19 {
+  position: relative;
+  top: -618px;
+  left: 74%;
+}
+
+#Description20 {
+  text-align: center;
+  position: relative;
+  top: -618px;
+  left: 68.4%;
+}
+
+
+#GoogleImage {
+  position: relative;
+  top: -440px;
+  left: 10%;
+}
+
+#IbmImage {
+  position: relative;
+  top: -440px;
+  left: 16%;
+}
+
+#MicrosoftImage {
+  position: relative;
+  top: -447px;
+  left: 22%;
+}
+
+#hpImage {
+  position: relative;
+  top: -440px;
+  left: 28%;
+}
+
+#VectorGraphicsImage{
+  position: relative;
+  top: -450px;
+  left: 34%;
+}
+
+#Article6 {
+  position: relative;
+  top: -340px;
+}
+
+#Description21 {
+  text-align: center;
+}
+
+#Description22 {
+  position: relative;
+  left: 31%;
+  text-align: center;
+  max-width: 470px;
+}
+
+
+.InstallButtons2 {
+  position: relative;
+  left: 50%;
+}
+
+#iOSButton2 {
+  position: relative;
+  left: 37%;
+}
+
+#MacButton2 {
+  position: relative;
+  left: 38%;
+}
+
+#bottom {
+  position: relative;
+  top: -200px;
+}
+
+footer {
+  position: relative;
+  top: -240px;
+  left: 400px;
+}
+
+#Logo2 {
+  position: relative;
+  top: 40px;
+  left: 120px;
+}
+
+#FAQLink {
+  position: relative;
+  left: 300px;
+  top: -40px;
+  max-width: 40px;
+}
+
+#PrivacyPolicyLink {
+  position: relative;
+  left: 470px;
+  top: -80px;
+  max-width: 102px;
+}
+
+#InstallGuideLink {
+  position: relative;
+  left: 640px;
+  top: -119px;
+  max-width: 92px;
+}
+
+#ContactUsLink {
+  position: relative;
+  left: 300px;
+  top: -120px;
+  max-width: 80px;
+}
+
+#PressKitLink {
+  position: relative;
+  left: 470px;
+  top: -160px;
+  max-width: 64px;
+}
+
+.SocialMediaIcons {
+  position: relative;
+  top: -230px;
+  left: 1000px;
+}
+
+#InstagramIcon {
+  position: relative;
+  left: 1020px;
+}
+
+#TwitterIcon {
+  position: relative;
+  left: 1040px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PC 1*/
+
+@media only screen and (min-width: 1280px) {
+  
+ #Logo {
+  position: relative;
+  top: -300px;
+  left: 47%;
+ }
+
+ #WelcomeDescription1 {
+  text-align: center;
+ }
+
+ #WelcomeDescription2 {
+  position: relative;
+  left: 31%;
+  text-align: center;
+  max-width: 470px;
+ }
+
+ #Article1 {
+  position: relative;
+  top: 50px;
+ }
+
+ #Article2 {
+  position: relative;
+  top: 30px;
+ }
+
+ #Article3 {
+  position: relative;
+  top: 20px;
+ }
+
+ #Article4 {
+  position: relative;
+  top: 20px;
+ }
+
+ .WelcomeDescriptions {
+  position: relative;
+  top: -300px;
+ }
+
+ .InstallButtons1 {
+  position: relative;
+  left: 50%;
+  top: -290px;
+ }
+
+ #iOSButton1 {
+  position: relative;
+  left: 37%;
+ }
+
+ #MacButton1 {
+  position: relative;
+  left: 38%;
+ }
+
+ #Description3 {
+  text-align: center;
+  position: relative;
+  top: -180px;
+  font-size: 30px;
+ }
+
+ #Description4 {
+  text-align: center;
+  position: relative;
+  width: 500px;
+  left: 30%;
+  top: -170px;
+ }
+
+ #MacImage1 {
+  position: relative;
+  top: -120px;
+  right: 5%;
+ }
+
+ #Description5 {
+  position: relative;
+  left: 52%;
+  top: -580px;
+ }
+
+ #Description6 {
+  position: relative;
+  left: 52%;
+  top: -580px;
+  width: 400px;
+ }
+
+ #Description7 {
+  position: relative;
+  left: 52%;
+  top: -560px;
+ }
+
+ #Description8 {
+  position: relative;
+  left: 52%;
+  top: -560px;
+  width: 400px;
+ } 
+
+ #Description9 {
+  position: relative;
+  left: 52%;
+  top: -540px;
+ }
+
+ #Description10 {
+  position: relative;
+  left: 52%;
+  top: -540px;
+  width: 400px;
+ }
+
+ #Description11 {
+  text-align: center;
+  position: relative;
+  top: -360px;
+ }
+
+ #Description12 {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  left: 26%;
+  top: -360px;
+ }
+
+ #DevicesImage {
+  position: relative;
+  top: -320px;
+  left: 15%;
+ }
+
+ #Description13 {
+  position: relative;
+  text-align: center;
+  top: -300px;
+ }
+
+ #Description14 {
+  position: relative;
+  text-align: center;
+  top: -300px;
+  left: 0%;
+ }
+
+ #BlacklistIcon {
+  position: relative;
+  left: 19%;
+  top: -270px;
+ }
+
+ #Description15 {
+  position: relative;
+  left: 13.5%;
+  top: -264px;
+ }
+
+ #Description16 {
+  text-align: center;
+  position: relative;
+  left: 9%;
+  top: -264px;
+ }
+
+ #TextIcon {
+   position: relative;
+   top: -464px;
+   left: 49%;
+ }
+
+ #Description17 {
+  position: relative;
+  top: -453px;
+  left: 42.5%;
+ }
+
+ #Description18 {
+  text-align: center;
+  position: relative;
+  top: -453px;
+  left: 38.5%;
+ }
+
+ #PreviewIcon {
+  position: relative;
+  top: -625px;
+  left: 78%;
+ }
+
+ #Description19 {
+  position: relative;
+  top: -618px;
+  left: 74%;
+ }
+
+ #Description20 {
+  text-align: center;
+  position: relative;
+  top: -618px;
+  left: 68.4%;
+ }
+
+
+ #GoogleImage {
+  position: relative;
+  top: -440px;
+  left: 10%;
+ }
+
+ #IbmImage {
+  position: relative;
+  top: -440px;
+  left: 16%;
+ }
+
+ #MicrosoftImage {
+  position: relative;
+  top: -447px;
+  left: 22%;
+ }
+
+ #hpImage {
+  position: relative;
+  top: -440px;
+  left: 28%;
+ }
+
+ #VectorGraphicsImage{
+  position: relative;
+  top: -450px;
+  left: 34%;
+ }
+
+ #Article6 {
+  position: relative;
+  top: -340px;
+ }
+
+ #Description21 {
+  text-align: center;
+ }
+
+ #Description22 {
+  position: relative;
+  left: 31%;
+  text-align: center;
+  max-width: 470px;
+ }
+
+
+ .InstallButtons2 {
+  position: relative;
+  left: 50%;
+ }
+
+ #iOSButton2 {
+  position: relative;
+  left: 37%;
+ }
+
+ #MacButton2 {
+  position: relative;
+  left: 38%;
+ }
+
+ #bottom {
+  position: relative;
+  top: -200px;
+ }
+
+ footer {
+  position: relative;
+  top: -240px;
+  left: 400px;
+ }
+
+ #Logo2 {
+  position: relative;
+  top: 40px;
+  left: 120px;
+ }
+
+ #FAQLink {
+  position: relative;
+  left: 300px;
+  top: -40px;
+  max-width: 40px;
+ } 
+
+ #PrivacyPolicyLink {
+  position: relative;
+  left: 470px;
+  top: -80px;
+  max-width: 102px;
+ }
+
+ #InstallGuideLink {
+  position: relative;
+  left: 640px;
+  top: -119px;
+  max-width: 92px;
+ } 
+
+ #ContactUsLink {
+  position: relative;
+  left: 300px;
+  top: -120px;
+  max-width: 80px;
+ }
+
+ #PressKitLink {
+  position: relative;
+  left: 470px;
+  top: -160px;
+  max-width: 64px;
+ }
+
+ .SocialMediaIcons {
+  position: relative;
+  top: -230px;
+  left: 1000px;
+ }
+
+ #InstagramIcon {
+  position: relative;
+  left: 1020px;
+} 
+
+ #TwitterIcon {
+  position: relative;
+  left: 1040px;
+ }
+
+ body {
+  max-height: 3160px;
+}
+}
+
+
+
+
+
+
+
+
+/*Mobile 1 (400-414 px)*/
+
+@media only screen and (max-width: 414px) and (min-width: 400px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4860px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 35%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 13%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 17%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 14%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 13%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 14%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 14%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 14%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 20%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 14%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 15%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 15%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 45%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 28%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 13.7%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 45%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 25%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 13%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 43.5%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 13%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 30%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 7%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 30%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 6%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 34%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+    left: 8%;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 20%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 18%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile 2 (399-380 px)*/
+
+@media only screen and (max-width: 399px) and (min-width: 380px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4840px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 34%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 11%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 14%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 11%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 11%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 11%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 11%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 11%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 17%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 11%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 11%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 11%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 45%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 25%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 10%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 46%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 25%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 10%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 44%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 10%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 28%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 12%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 28%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 12%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 30%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+    left: 4%;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 16%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 15%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+
+/*Mobile 3 (379-360 px)*/
+
+@media only screen and (max-width: 379px) and (min-width: 360px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4860px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 34%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 9%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 12.8%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 9%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 9%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 9%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 9%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 9%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 15%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 9%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 9%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 9%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 44%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 24%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 7%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 46%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 22%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 7%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 44%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 7%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 28%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 15%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 28%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 15%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 30%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+    left: 2%;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 15%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 13%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile 4 (359-340 px)*/
+
+@media only screen and (max-width: 359px) and (min-width: 340px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4860px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 32%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 6%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 11%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 6%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 6%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 6%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 6%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 6%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 13%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 6%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 6%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 6%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 42%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 22%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 4%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 44%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 20%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 4%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 42%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 4%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 24%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 19%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 24%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 19%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 30%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 12%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 11%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+/*Mobile 5 (339-320 px)*/
+
+@media only screen and (max-width: 339px) and (min-width: 320px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4860px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 31%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 3%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 7%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 4%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 4%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 4%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 4%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 4%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 10%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 4%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 4%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 4%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 42%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 22%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 2%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 44%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 18%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 2%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 42%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 2%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 24%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 23%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 24%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 19%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 30%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 10%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 8%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+
+/*Mobile 6 (319px ->) */
+
+@media only screen and (max-width: 319px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4860px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 30%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 5%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 8%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 42%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 20%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    width: 260px;
+    left: 7%;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 44%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 16%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    top: 280px;
+    text-align: center;
+    width: 260px;
+    left: 7%;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 42%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 24%;
+    top: 430px;
+  }
+
+  #IbmImage {
+    position: relative;
+    left: 30%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 24%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 25%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 30%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 7%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 5%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+/*Mobile 7 (415-425px)*/
+
+@media only screen and (max-width: 425px) and (min-width: 415px) {
+  #WelcomeBackgroundPhoto {
+    position: relative;
+    height: 300px;
+  }
+
+  body {
+    min-height: 4880px;
+  }
+
+  #Logo {
+    width: 120px;
+    position: relative;
+    top: -200px;
+    left: 36%;
+  }
+
+  .WelcomeDescriptions {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    width: 300px;
+    left: 14%;
+  }
+
+  .InstallButtons1 {
+    position: relative;
+    top: -120px;
+    left: 18%;
+  }
+
+  #iOSButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton1 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+  }
+
+  #Description3 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 15%;
+  }
+
+  #Description4 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 14%;
+  }
+
+  #MacImage1 {
+    width: 85%;
+    position: relative;
+    left: 8%;
+    top: 60px;
+  }
+
+  #Description5 {
+    text-align: center;
+  }
+
+  #Description6 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 15%;
+  }
+
+  #Description5, #Description6 {
+    position: relative;
+    top: 80px;
+  }
+
+  #Description7 {
+    text-align: center;
+  }
+
+  #Description8 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 15%;
+  }
+
+  #Description7, #Description8 {
+    position: relative;
+    top: 100px;
+  }
+
+  #Description9 {
+    text-align: center;
+  }
+
+  #Description10 {
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 15%;
+  }
+
+  #Description9, #Description10 {
+    position: relative;
+    top: 120px;
+  }
+
+  #Description11 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    left: 20%;
+  }
+
+  #Description12 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 15%;
+  }
+
+  #Description11, #Description12 {
+    position: relative;
+    top: 200px;
+  }
+
+  #DevicesImage {
+    position: relative;
+    width: 100%;
+    top: 230px;
+  }
+
+  #Description13 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 16%;
+  }
+
+  #Description14 {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    left: 16%;
+  }
+
+  #Description13, #Description14 {
+    position: relative;
+    top: 200px;
+  }
+
+  #BlacklistIcon {
+    position: relative;
+    left: 45%;
+    top: 250px;
+  }
+
+  #Description15 {
+    position: relative;
+    left: 28%;
+    top: 250px;
+  }
+
+  #Description16 {
+    position: relative;
+    left: 13.7%;
+    top: 250px;
+    text-align: center;
+  }
+
+  #TextIcon {
+    position: relative;
+    left: 45%;
+    top: 280px;
+  }
+
+  #Description17 {
+    position: relative;
+    left: 25%;
+    top: 280px;
+  }
+
+  #Description18 {
+    position: relative;
+    left: 13%;
+    top: 280px;
+    text-align: center;
+  }
+
+  #PreviewIcon {
+    position: relative;
+    left: 43.5%;
+    top: 310px;
+  }
+
+  #Description19 {
+    position: relative;
+    top: 310px;
+    text-align: center;
+  }
+
+  #Description20 {
+    position: relative;
+    left: 13%;
+    top: 310px;
+    text-align: center;
+  }
+
+
+  #GoogleImage {
+    position: relative;
+    left: 30%;
+    top: 400px;
+  }
+
+  #IbmImage {
+    position: relative;
+    right: 6%;
+    top: 520px;
+  }
+
+  #MicrosoftImage {
+    position: relative;
+    left: 30%;
+    top: 580px;
+  }
+
+  #hpImage {
+    position: relative;
+    right: 6%;
+    top: 700px;
+  }
+
+  #VectorGraphicsImage {
+    position: relative;
+    left: 34%;
+    top: 760px;
+  }
+
+  #Article6 {
+    position: relative;
+    top: 800px;
+  }
+
+  #Description21 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    max-width: 350px;
+    left: 8%;
+  }
+
+  #Description22 {
+    text-align: center;
+    max-width: 260px;
+    position: relative;
+    left: 19%;
+    top: 80px;
+  }
+
+  .InstallButtons2 {
+    position: relative;
+    top: 100px;
+    left: 18%;
+  }
+
+  #iOSButton2{
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+  }
+
+  #MacButton2 {
+    width: 270px;
+    height: 50px;
+    border-radius: 80px;
+    position: relative;
+    top: 120px;
+  }
+
+  #bottom {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    min-height: 430px;
+  }
+
+  .bottomElements {
+    position: relative;
+    top: 40px;
+  }
+
+  .SocialMediaIcons {
+    position: relative;
+    top: 60px;
+  }
+
+  #FacebookIcon {
+    position: relative;
+    right: 20px
+  }
+
+  #TwitterIcon {
+    position: relative;
+    left: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 1050px;
+  }
+}
+
+
+
+
+
+
+
+/*Tablet 1*/
+
+@media only screen and (max-width: 540px) and (min-width: 416px){
+  
+
+  body {
+    text-align: center;
+    max-height: 4310px;
+    min-height: 4310px;
+  }
+
+  #Logo {
+   position: relative;
+   top: -100px;
+  }
+ 
+  #WelcomeDescription1 {
+   text-align: center;
+   top: -100px;
+  }
+ 
+  #WelcomeDescription2 {
+   position: relative;
+   text-align: center;
+   max-width: 470px;
+   top: -100px;
+   left: 6%;
+  }
+ 
+  #Article1 {
+   position: relative;
+  }
+ 
+  #Article2 {
+   position: relative;
+  }
+ 
+  #Article3 {
+   position: relative;
+  }
+ 
+  #Article4 {
+   position: relative;
+  }
+ 
+  .WelcomeDescriptions {
+   position: relative;
+  }
+ 
+  .InstallButtons1 {
+   position: relative;
+   top: -80px;
+  }
+ 
+  #iOSButton1 {
+   position: relative;
+   right: 2%;
+  }
+ 
+  #MacButton1 {
+   position: relative;
+   left: 2%;
+  }
+ 
+  #Description3 {
+   text-align: center;
+   position: relative;
+   font-size: 30px;
+  }
+ 
+  #Description4 {
+   text-align: center;
+   position: relative;
+   width: 500px;
+   left: 4%;
+  }
+ 
+  #MacImage1 {
+   position: relative;
+   top: 40px;
+   width: 80%;
+   left: 0%;
+   right: 5%;
+  }
+ 
+  #Description5 {
+   position: relative;
+   top: 80px;
+  }
+ 
+  #Description6 {
+   position: relative;
+   width: 400px;
+   top: 80px;
+   left: 14%;
+  }
+ 
+  #Description7 {
+   position: relative;
+   top: 80px;
+  }
+ 
+  #Description8 {
+   position: relative;
+   width: 400px;
+   top: 80px;
+   left: 14%;
+  } 
+ 
+  #Description9 {
+   position: relative;
+   top: 80px;
+  }
+ 
+  #Description10 {
+   position: relative;
+   width: 400px;
+   top: 80px;
+   left: 14%;
+  }
+ 
+  #Description11 {
+   text-align: center;
+   position: relative;
+   top: 160px;
+  }
+ 
+  #Description12 {
+   position: relative;
+   text-align: center;
+   width: 400px;
+   top: 160px;
+   left: 13%;
+  }
+ 
+  #DevicesImage {
+   position: relative;
+   top: 200px;
+   width: 100%;
+  }
+ 
+  #Description13 {
+   position: relative;
+   text-align: center;
+   top: 200px;
+  }
+ 
+  #Description14 {
+   position: relative;
+   text-align: center;
+   top: 200px;
+  }
+ 
+  #BlacklistIcon {
+   position: relative;
+   top: 220px;
+  }
+ 
+  #Description15 {
+   position: relative;
+   top: 240px;
+  }
+ 
+  #Description16 {
+   text-align: center;
+   position: relative;
+   top: 240px;
+   left: 21%;
+  }
+ 
+  #TextIcon {
+    position: relative;
+    top: 280px;
+  }
+ 
+  #Description17 {
+   position: relative;
+   top: 300px;
+  }
+ 
+  #Description18 {
+   text-align: center;
+   position: relative;
+   top: 300px;
+   left: 21%;
+  }
+ 
+  #PreviewIcon {
+   position: relative;
+   top: 340px;
+  }
+ 
+  #Description19 {
+   position: relative;
+   top: 360px;
+  }
+ 
+  #Description20 {
+   text-align: center;
+   position: relative;
+   top: 360px;
+   left: 21%;
+  }
+ 
+ 
+  #GoogleImage {
+   position: relative;
+   top: 460px;
+   left: 29%;
+  }
+ 
+  #IbmImage {
+   position: relative;
+   top: 580px;
+   left: 1%;
+  }
+ 
+  #MicrosoftImage {
+   position: relative;
+   top: 700px;
+   right: 29%;
+  }
+ 
+  #hpImage {
+   position: relative;
+   top: 780px;
+   left: 12%;
+  }
+ 
+  #VectorGraphicsImage{
+   position: relative;
+   top: 860px;
+   right: 14%;
+  }
+
+  #Article6 {
+   position: relative;
+   top: 1000px;
+  }
+ 
+  #Description21 {
+   text-align: center;
+  }
+ 
+  #Description22 {
+   position: relative;
+   text-align: center;
+   max-width: 470px;
+   left: 7%;
+  }
+ 
+ 
+  .InstallButtons2 {
+   position: relative;
+  }
+ 
+  #iOSButton2 {
+   position: relative;
+   right: 1%;
+  }
+ 
+  #MacButton2 {
+   position: relative;
+   left: 1%;
+  }
+
+  #bottom {
+   position: relative;
+   top: 1160px;
+   background-color: #dfdfdf;
+   min-height: 400px;
+  }
+ 
+  footer {
+   position: relative;
+   top: 1120px;
+  }
+ 
+  #Logo2 {
+   position: relative;
+   top: 40px;
+  }
+ 
+  #FAQLink {
+   position: relative;
+   max-width: 40px;
+   top: 40px;
+   left: 46%;
+  } 
+ 
+  #PrivacyPolicyLink {
+   position: relative;
+   max-width: 102px;
+   top: 40px;
+   left: 40%;
+  }
+ 
+  #InstallGuideLink {
+   position: relative;
+   max-width: 92px;
+   top: 40px;
+   left: 41%;
+  } 
+ 
+  #ContactUsLink {
+   position: relative;
+   max-width: 80px;
+   top: 40px;
+   left: 42%;
+  }
+ 
+  #PressKitLink {
+   position: relative;
+   max-width: 64px;
+   top: 40px;
+   left: 43%;
+  }
+ 
+  .SocialMediaIcons {
+   position: relative;
+   top: 40px;
+  }
+ 
+  #FacebookIcon {
+   position: relative;
+   right: 20px;
+ } 
+ 
+  #TwitterIcon {
+   position: relative;
+   left: 20px;
+  }
+ 
+}
+ 
+
+
+
+/*Tablet 2*/
+
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  body {
+    text-align: center;
+    max-height: 4600px;
+    min-height: 4600px;
+  }
+
+  #Logo {
+   position: relative;
+   top: -100px;
+  }
+ 
+  #WelcomeDescription1 {
+   text-align: center;
+   top: -100px;
+   
+  }
+ 
+  #WelcomeDescription2 {
+   position: relative;
+   text-align: center;
+   max-width: 470px;
+   top: -100px;
+   left: 20%;
+  }
+ 
+  #Article1 {
+   position: relative;
+  }
+ 
+  #Article2 {
+   position: relative;
+   top: 100px;
+  }
+ 
+  #Article3 {
+   position: relative;
+   top: 100px;
+  }
+ 
+  #Article4 {
+   position: relative;
+   top: 100px;
+  }
+ 
+  .WelcomeDescriptions {
+   position: relative;
+  }
+ 
+  .InstallButtons1 {
+   position: relative;
+   top: -80px;
+  }
+ 
+  #iOSButton1 {
+   position: relative;
+   right: 2%;
+  }
+ 
+  #MacButton1 {
+   position: relative;
+   left: 2%;
+  }
+ 
+  #Description3 {
+   text-align: center;
+   position: relative;
+   font-size: 30px;
+   right: 10px;
+  }
+ 
+  #Description4 {
+   text-align: center;
+   position: relative;
+   width: 500px;
+   left: 16%;
+  }
+ 
+  #MacImage1 {
+   position: relative;
+   top: 40px;
+   width: 80%;
+   left: 0%;
+   right: 5%;
+  }
+ 
+  #Description5 {
+   position: relative;
+   top: 100px;
+  }
+ 
+  #Description6 {
+   position: relative;
+   width: 400px;
+   top: 100px;
+   left: 24%;
+  }
+ 
+  #Description7 {
+   position: relative;
+   top: 120px;
+  }
+ 
+  #Description8 {
+   position: relative;
+   width: 400px;
+   top: 120px;
+   left: 24%;
+  } 
+ 
+  #Description9 {
+   position: relative;
+   top: 140px;
+  }
+ 
+  #Description10 {
+   position: relative;
+   width: 400px;
+   top: 140px;
+   left: 24%;
+  }
+ 
+  #Description11 {
+   text-align: center;
+   position: relative;
+   top: 240px;
+  }
+ 
+  #Description12 {
+   position: relative;
+   text-align: center;
+   width: 400px;
+   top: 240px;
+   left: 24%;
+  }
+ 
+  #DevicesImage {
+   position: relative;
+   top: 280px;
+   width: 100%;
+  }
+ 
+  #Description13 {
+   position: relative;
+   text-align: center;
+   top: 300px;
+  }
+ 
+  #Description14 {
+   position: relative;
+   text-align: center;
+   top: 300px;
+  }
+ 
+  #BlacklistIcon {
+   position: relative;
+   top: 320px;
+  }
+ 
+  #Description15 {
+   position: relative;
+   top: 320px;
+  }
+ 
+  #Description16 {
+   text-align: center;
+   position: relative;
+   top: 320px;
+   left: 30%;
+  }
+ 
+  #TextIcon {
+    position: relative;
+    top: 360px;
+  }
+ 
+  #Description17 {
+   position: relative;
+   top: 360px;
+  }
+ 
+  #Description18 {
+   text-align: center;
+   position: relative;
+   top: 360px;
+   left: 30%;
+  }
+ 
+  #PreviewIcon {
+   position: relative;
+   top: 400px;
+  }
+ 
+  #Description19 {
+   position: relative;
+   top: 400px;
+  }
+ 
+  #Description20 {
+   text-align: center;
+   position: relative;
+   top: 400px;
+   left: 30%;
+  }
+ 
+ 
+  #GoogleImage {
+   position: relative;
+   top: 580px;
+   left: 9%;
+  }
+ 
+  #IbmImage {
+   position: relative;
+   top: 580px;
+   left: 50%;
+  }
+ 
+  #MicrosoftImage {
+   position: relative;
+   top: 700px;
+   right: 31%;
+  }
+ 
+  #hpImage {
+   position: relative;
+   top: 710px;
+   left: 10%;
+  }
+ 
+  #VectorGraphicsImage{
+   position: relative;
+   top: 820px;
+   right: 39%;
+  }
+
+  #Article6 {
+   position: relative;
+   top: 1000px;
+  }
+ 
+  #Description21 {
+   text-align: center;
+  }
+ 
+  #Description22 {
+   position: relative;
+   text-align: center;
+   max-width: 470px;
+   left: 20%;
+  }
+ 
+ 
+  .InstallButtons2 {
+   position: relative;
+  }
+ 
+  #iOSButton2 {
+   position: relative;
+   right: 1%;
+  }
+ 
+  #MacButton2 {
+   position: relative;
+   left: 1%;
+  }
+
+  #bottom {
+   position: relative;
+   top: 1160px;
+   background-color: #dfdfdf;
+   min-height: 400px;
+  }
+ 
+  footer {
+   position: relative;
+   top: 1120px;
+  }
+ 
+  #Logo2 {
+   position: relative;
+   top: 40px;
+  }
+ 
+  #FAQLink {
+   position: relative;
+   max-width: 40px;
+   top: 40px;
+   left: 47%;
+  } 
+ 
+  #PrivacyPolicyLink {
+   position: relative;
+   max-width: 102px;
+   top: 40px;
+   left: 43%;
+  }
+ 
+  #InstallGuideLink {
+   position: relative;
+   max-width: 92px;
+   top: 40px;
+   left: 43%;
+  } 
+ 
+  #ContactUsLink {
+   position: relative;
+   max-width: 80px;
+   top: 40px;
+   left: 44%;
+  }
+ 
+  #PressKitLink {
+   position: relative;
+   max-width: 64px;
+   top: 40px;
+   left: 45%;
+  }
+ 
+  .SocialMediaIcons {
+   position: relative;
+   top: 40px;
+  }
+ 
+  #FacebookIcon {
+   position: relative;
+   right: 20px;
+ } 
+ 
+  #TwitterIcon {
+   position: relative;
+   left: 20px;
+  }
+ 
+}
+
+
+
+
+
+
+
+/*Laptop 1*/
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  #Logo {
+    position: relative;
+    top: -240px;
+    left: 47%;
+   }
+  
+   #WelcomeDescription1 {
+    top: -240px;
+    text-align: center;
+   }
+  
+   #WelcomeDescription2 {
+    position: relative;
+    left: 27%;
+    text-align: center;
+    max-width: 470px;
+    top: -240px;
+   }
+  
+   #Article1 {
+    position: relative;
+    top: 50px;
+   }
+  
+   #Article2 {
+    position: relative;
+    top: 30px;
+   }
+  
+   #Article3 {
+    position: relative;
+    top: 20px;
+   }
+  
+   #Article4 {
+    position: relative;
+    top: 20px;
+   }
+  
+   .WelcomeDescriptions {
+    position: relative;
+    top: -300px;
+   }
+  
+   .InstallButtons1 {
+    position: relative;
+    right: 300px;
+    top: -240px;
+   }
+  
+   #iOSButton1 {
+    position: relative;
+    left: 34%;
+   }
+  
+   #MacButton1 {
+    position: relative;
+    left: 38%;
+   }
+  
+   #Description3 {
+    text-align: center;
+    position: relative;
+    top: -180px;
+    font-size: 30px;
+   }
+  
+   #Description4 {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    left: 26%;
+    top: -170px;
+   }
+  
+   #MacImage1 {
+    position: relative;
+    top: -120px;
+    right: 8%;
+   }
+  
+   #Description5 {
+    position: relative;
+    left: 57%;
+    top: -580px;
+   }
+  
+   #Description6 {
+    position: relative;
+    left: 57%;
+    top: -580px;
+    width: 400px;
+   }
+  
+   #Description7 {
+    position: relative;
+    left: 57%;
+    top: -560px;
+   }
+  
+   #Description8 {
+    position: relative;
+    left: 57%;
+    top: -560px;
+    width: 400px;
+   } 
+  
+   #Description9 {
+    position: relative;
+    left: 57%;
+    top: -540px;
+   }
+  
+   #Description10 {
+    position: relative;
+    left: 57%;
+    top: -540px;
+    width: 400px;
+   }
+  
+   #Description11 {
+    text-align: center;
+    position: relative;
+    top: -360px;
+   }
+  
+   #Description12 {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    left: 21%;
+    top: -360px;
+   }
+  
+   #DevicesImage {
+    position: relative;
+    top: -320px;
+    left: 5%;
+   }
+  
+   #Description13 {
+    position: relative;
+    text-align: center;
+    top: -300px;
+   }
+  
+   #Description14 {
+    position: relative;
+    text-align: center;
+    top: -300px;
+    left: 0%;
+   }
+  
+   #BlacklistIcon {
+    position: relative;
+    left: 17%;
+    top: -270px;
+   }
+  
+   #Description15 {
+    position: relative;
+    left: 10%;
+    top: -264px;
+   }
+  
+   #Description16 {
+    text-align: center;
+    position: relative;
+    left: 4%;
+    top: -264px;
+   }
+  
+   #TextIcon {
+     position: relative;
+     top: -462px;
+     left: 49%;
+   }
+  
+   #Description17 {
+    position: relative;
+    top: -453px;
+    left: 42%;
+   }
+  
+   #Description18 {
+    text-align: center;
+    position: relative;
+    top: -453px;
+    left: 36%;
+   }
+  
+   #PreviewIcon {
+    position: relative;
+    top: -625px;
+    left: 78%;
+   }
+  
+   #Description19 {
+    position: relative;
+    top: -618px;
+    left: 74%;
+   }
+  
+   #Description20 {
+    text-align: center;
+    position: relative;
+    top: -618px;
+    left: 66%;
+   }
+  
+  
+   #GoogleImage {
+    position: relative;
+    top: -440px;
+    left: 5%;
+   }
+  
+   #IbmImage {
+    position: relative;
+    top: -440px;
+    left: 10%;
+   }
+  
+   #MicrosoftImage {
+    position: relative;
+    top: -447px;
+    left: 15%;
+   }
+  
+   #hpImage {
+    position: relative;
+    top: -440px;
+    left: 20%;
+   }
+  
+   #VectorGraphicsImage{
+    position: relative;
+    top: -450px;
+    left: 25%;
+   }
+  
+   #Article6 {
+    position: relative;
+    top: -340px;
+   }
+  
+   #Description21 {
+    text-align: center;
+   }
+  
+   #Description22 {
+    position: relative;
+    left: 27%;
+    text-align: center;
+    max-width: 470px;
+   }
+  
+  
+   .InstallButtons2 {
+    position: relative;
+    left: 30%;
+   }
+  
+   #iOSButton2 {
+    position: relative;
+    left: 34%;
+   }
+  
+   #MacButton2 {
+    position: relative;
+    left: 36%;
+   }
+  
+   #bottom {
+    position: relative;
+    top: -200px;
+   }
+  
+   footer {
+    position: relative;
+    top: -220px;
+    left: 200px;
+   }
+  
+   #Logo2 {
+    position: relative;
+    top: 40px;
+    left: 120px;
+   }
+  
+   #FAQLink {
+    position: relative;
+    left: 300px;
+    top: -40px;
+    max-width: 40px;
+   } 
+  
+   #PrivacyPolicyLink {
+    position: relative;
+    left: 470px;
+    top: -80px;
+    max-width: 102px;
+   }
+  
+   #InstallGuideLink {
+    position: relative;
+    left: 640px;
+    top: -119px;
+    max-width: 92px;
+   } 
+  
+   #ContactUsLink {
+    position: relative;
+    left: 300px;
+    top: -120px;
+    max-width: 80px;
+   }
+  
+   #PressKitLink {
+    position: relative;
+    left: 470px;
+    top: -160px;
+    max-width: 64px;
+   }
+  
+   .SocialMediaIcons {
+    position: relative;
+    top: -230px;
+    left: 800px;
+   }
+  
+   #InstagramIcon {
+    position: relative;
+    left: 820px;
+  } 
+  
+   #TwitterIcon {
+    position: relative;
+    left: 840px;
+   }
+  
+   body {
+    max-height: 3160px;
+  }
+}
+
+
+
+
+
+
+
+
+/*Laptop 2*/
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  #Logo {
+    position: relative;
+    top: -300px;
+    left: 47%;
+   }
+  
+   #WelcomeDescription1 {
+    text-align: center;
+   }
+  
+   #WelcomeDescription2 {
+    position: relative;
+    left: 33%;
+    text-align: center;
+    max-width: 470px;
+   }
+  
+   #Article1 {
+    position: relative;
+    top: 50px;
+   }
+  
+   #Article2 {
+    position: relative;
+    top: 30px;
+   }
+  
+   #Article3 {
+    position: relative;
+    top: 20px;
+   }
+  
+   #Article4 {
+    position: relative;
+    top: 20px;
+   }
+  
+   .WelcomeDescriptions {
+    position: relative;
+    top: -300px;
+   }
+  
+   .InstallButtons1 {
+    position: relative;
+    left: 60%;
+    top: -290px;
+   }
+  
+   #iOSButton1 {
+    position: relative;
+    left: 38%;
+   }
+  
+   #MacButton1 {
+    position: relative;
+    left: 39%;
+   }
+  
+   #Description3 {
+    text-align: center;
+    position: relative;
+    top: -180px;
+    font-size: 30px;
+   }
+  
+   #Description4 {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    left: 32%;
+    top: -170px;
+   }
+  
+   #MacImage1 {
+    position: relative;
+    top: -120px;
+    right: 5%;
+   }
+  
+   #Description5 {
+    position: relative;
+    left: 52%;
+    top: -580px;
+   }
+  
+   #Description6 {
+    position: relative;
+    left: 52%;
+    top: -580px;
+    width: 400px;
+   }
+  
+   #Description7 {
+    position: relative;
+    left: 52%;
+    top: -560px;
+   }
+  
+   #Description8 {
+    position: relative;
+    left: 52%;
+    top: -560px;
+    width: 400px;
+   } 
+  
+   #Description9 {
+    position: relative;
+    left: 52%;
+    top: -540px;
+   }
+  
+   #Description10 {
+    position: relative;
+    left: 52%;
+    top: -540px;
+    width: 400px;
+   }
+  
+   #Description11 {
+    text-align: center;
+    position: relative;
+    top: -360px;
+   }
+  
+   #Description12 {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    left: 29%;
+    top: -360px;
+   }
+  
+   #DevicesImage {
+    position: relative;
+    top: -320px;
+    left: 15%;
+   }
+  
+   #Description13 {
+    position: relative;
+    text-align: center;
+    top: -300px;
+   }
+  
+   #Description14 {
+    position: relative;
+    text-align: center;
+    top: -300px;
+    left: 0%;
+   }
+  
+   #BlacklistIcon {
+    position: relative;
+    left: 19%;
+    top: -270px;
+   }
+  
+   #Description15 {
+    position: relative;
+    left: 13.5%;
+    top: -264px;
+   }
+  
+   #Description16 {
+    text-align: center;
+    position: relative;
+    left: 9%;
+    top: -264px;
+   }
+  
+   #TextIcon {
+     position: relative;
+     top: -464px;
+     left: 48%;
+   }
+  
+   #Description17 {
+    position: relative;
+    top: -453px;
+    left: 42.5%;
+   }
+  
+   #Description18 {
+    text-align: center;
+    position: relative;
+    top: -453px;
+    left: 38.5%;
+   }
+  
+   #PreviewIcon {
+    position: relative;
+    top: -625px;
+    left: 78%;
+   }
+  
+   #Description19 {
+    position: relative;
+    top: -618px;
+    left: 74%;
+   }
+  
+   #Description20 {
+    text-align: center;
+    position: relative;
+    top: -618px;
+    left: 68.4%;
+   }
+  
+  
+   #GoogleImage {
+    position: relative;
+    top: -440px;
+    left: 10%;
+   }
+  
+   #IbmImage {
+    position: relative;
+    top: -440px;
+    left: 16%;
+   }
+  
+   #MicrosoftImage {
+    position: relative;
+    top: -447px;
+    left: 22%;
+   }
+  
+   #hpImage {
+    position: relative;
+    top: -440px;
+    left: 28%;
+   }
+  
+   #VectorGraphicsImage{
+    position: relative;
+    top: -450px;
+    left: 34%;
+   }
+  
+   #Article6 {
+    position: relative;
+    top: -340px;
+   }
+  
+   #Description21 {
+    text-align: center;
+   }
+  
+   #Description22 {
+    position: relative;
+    left: 33.7%;
+    text-align: center;
+    max-width: 470px;
+   }
+  
+  
+   .InstallButtons2 {
+    position: relative;
+    left: 50%;
+   }
+  
+   #iOSButton2 {
+    position: relative;
+    left: 38%;
+   }
+  
+   #MacButton2 {
+    position: relative;
+    left: 41%;
+   }
+  
+   #bottom {
+    position: relative;
+    top: -200px;
+   }
+  
+   footer {
+    position: relative;
+    top: -240px;
+    left: 400px;
+   }
+  
+   #Logo2 {
+    position: relative;
+    top: 40px;
+    left: 120px;
+   }
+  
+   #FAQLink {
+    position: relative;
+    left: 300px;
+    top: -40px;
+    max-width: 40px;
+   } 
+  
+   #PrivacyPolicyLink {
+    position: relative;
+    left: 470px;
+    top: -80px;
+    max-width: 102px;
+   }
+  
+   #InstallGuideLink {
+    position: relative;
+    left: 640px;
+    top: -119px;
+    max-width: 92px;
+   } 
+  
+   #ContactUsLink {
+    position: relative;
+    left: 300px;
+    top: -120px;
+    max-width: 80px;
+   }
+  
+   #PressKitLink {
+    position: relative;
+    left: 470px;
+    top: -160px;
+    max-width: 64px;
+   }
+  
+   .SocialMediaIcons {
+    position: relative;
+    top: -230px;
+    left: 1000px;
+   }
+  
+   #InstagramIcon {
+    position: relative;
+    left: 1020px;
+  } 
+  
+   #TwitterIcon {
+    position: relative;
+    left: 1040px;
+   }
+  
+   body {
+    max-height: 3200px;
+  }
+}
+
